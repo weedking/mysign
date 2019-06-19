@@ -1,6 +1,20 @@
 @import '~antd/dist/antd.css';
 .App {
-  text-align: center;
+  /*text-align: center;*/
+
+  /*background-color: bisque;*/
+  background-color: #ECECEC;
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  /*font-size: 30px;*/
+  /*height: 200px;*/
+  /*width: 750px;*/
+  font-size: 4vm;
+  height: 26.667vm;
+  width: 100vm;
+  content:"viewport-units-buggyfill; font-size: 4vw; height: 26.667vm; width: 100vm";
 }
 
 .App-logo {
